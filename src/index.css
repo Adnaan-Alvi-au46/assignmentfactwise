@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* AG Grid theme overrides */
+.ag-theme-alpine {
+  --ag-header-background-color: #1e293b;
+  --ag-header-foreground-color: #f1f5f9;
+  --ag-header-column-separator-color: #334155;
+  --ag-odd-row-background-color: #f8fafc;
+  --ag-row-hover-color: #e0f2fe;
+  --ag-selected-row-background-color: #bfdbfe;
+  --ag-border-color: #e2e8f0;
+  --ag-font-size: 13px;
+  --ag-row-height: 48px;
+}
+
+.ag-theme-alpine .ag-header-cell-label {
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-size: 11px;
+}
